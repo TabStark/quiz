@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: 2px solid rgb(0, 217, 255);
+    width: 90%;
+    height: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px rgb(0, 217, 255);
+}
+.programminglanguage{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+.programminglanguage img{
+    width:140px;
+}
+
+.programminglanguage button{
+    background-color: rgb(34, 34, 236);
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+}
+.programminglanguage button:hover{
+        background-color: rgb(51, 235, 51);
+        color: black;
+}
+
+.programminglanguage button a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
